@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Phishing Email Detector</h1>
+
+    <p>Paste an email below and scan it for phishing indicators.</p>
+
+    <textarea
+        id="emailText"
+        placeholder="Paste the email here..."
+        rows="10">
+    </textarea>
+
+    <div class="buttons">
+        <button id="scanBtn">Scan Email</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <h2 id="riskLevel">Risk Level:</h2>
+
+    <h3>Scan Results</h3>
+
+    <ul id="results">
+
+    </ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
